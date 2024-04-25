@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
                 snt_msgs.append(snt_msg)
             except:
                 pass
-        await message.reply_text("**Baka! Files will be deleted After 10 seconds. Save them to the Saved Message now!.**")
+        await message.reply_text("**Baka! Files will be deleted After 600 seconds. Save them to the Saved Message now!.**")
         await asyncio.sleep(SECONDS)
 
         for snt_msg in snt_msgs:
@@ -102,7 +102,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/OtakuFlix_Network/4639')
+                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/LUFFY1JOYBOY')
                 ]
             ]
         )
