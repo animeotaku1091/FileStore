@@ -84,7 +84,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/OtakuFlix_Network/4639')
+                    InlineKeyboardButton('🍁 ᴄʀᴇᴀᴛᴏʀ', url='https://t.me/LUFFY1JOYBOY')
                 ]
             ]
                 )
@@ -197,4 +197,3 @@ Unsuccessful: <code>{unsuccessful}</code></b>"""
         msg = await message.reply(REPLY_ERROR)
         await asyncio.sleep(8)
         await msg.delete()
-
